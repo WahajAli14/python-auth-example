@@ -9,7 +9,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+    env:
+      REGISTRY: docker.io
     steps:
     - name: Checkout Repo
       uses: actions/checkout@v3
