@@ -30,4 +30,4 @@ jobs:
         file: ./Dockerfile
         pull: true
         push: true
-        tags: wahajali14/python-action@v1
+        tags: wahajali14/python-action:v1
