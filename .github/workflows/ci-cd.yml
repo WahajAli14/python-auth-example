@@ -30,4 +30,4 @@ jobs:
         file: ./Dockerfile
         pull: true
         push: true
-        tags: ${{ steps.generate_vars.outputs.image }}
+        tags: wahajali14/python-action@v1
